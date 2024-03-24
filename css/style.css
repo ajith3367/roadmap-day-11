@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3e5e5;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: calc(30% - 5px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #6d4949;
+  border-radius: 3px;
+  box-sizing:border-box; 
+}
+input[type="submit"] {
+  background-color: #a19e9f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #b3008c;
+}
+
+
+.rating input {
+  display: none;
+}
+.rating label {
+  display: inline-block;
+  padding: 5px;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #f90;
+}
+.rating input:checked ~ label:before {
+  content: "\2605\\";
+}
+.question {
+  margin-bottom: 20px;
+}
+
+
+.options label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.mandatory {
+  color: rgb(255, 0, 0);
+}
+
+
+.purchase-row { 
+  background-color: #b3acac; 
+  border-radius: 10px;
+ 
+}
+
+.purchase-row:hover {
+  background-color:  #d4c6b8; 
+}
+
+.company-row{
+
+  background-color: #b3acac; 
+
+}
+
+.company-row:hover {
+  background-color: #d4c6b8; 
+}
+
+.buy-row{
+    background-color: #b3acac;
+}
+
+.buy-row:hover {
+  background-color: #d4c6b8;; 
+}
+
+.our-row{
+    background-color: #b3acac;
+}
+
+.our-row:hover {
+  background-color: #d4c6b8; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.your-experience {
+  text-align: center;
+}
+
+.star-rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  display: inline-block;
+  font-size: 40px;
+  color: #05ff2fe7; 
+  cursor: pointer;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover {
+  color: #ffcd05; 
+}

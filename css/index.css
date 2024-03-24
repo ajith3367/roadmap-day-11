@@ -1,0 +1,118 @@
+
+.menu li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu li a:hover {
+  text-decoration: none;
+  color: rgb(240, 231, 231);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wup {
+text-align: var();
+}
+
+.nxt {
+  
+    text-align: var();
+}
+
+.container {
+  display:flex;
+  justify-content: space-between;
+}
+
+ nav {
+    margin-right: 60px; /* Adjust margin as needed */
+  }
+
+  .container > div {
+    text-align: center;
+  flex: 100;
+  justify-content: space-around;
+}
+
+.border {
+  border: 1px solid black;
+  width: 40px;
+  height: 150px;
+}
+
+.new {
+ 
+  border: 1px solid black;
+  width: 40px;
+  height: 150px;
+}
+
+.poet {
+  text-align: left;
+  border: 1px solid black;
+  width: 40px;
+  height: 150px;
+}
+
+.civil {
+  border: 1px solid black;
+  width: 40px;
+  height: 150px;
+}
+
+
+.btn1 {
+    background-color: #6b6464; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    height: 40px;
+  }
+
+  .btn2 {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    height:40px;
+  }
+
+
+  .btn3 {
+    background-color: #ffa600;/
+    color: #ffffff;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:40px;
+  }
+
+  .page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.page ul {
+  width: calc(25% - 20px); /* Adjust width as needed */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  list-style-type: none;
+
+}
+
+.page ul li {
+  text-align: center;
+}
+
+
+.img {
+  float: right;
+}
