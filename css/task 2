@@ -138,7 +138,7 @@ td {
 <br>
   <div class="question">
     <label for="comments">Additional comments or suggestions:</label>
-    <textarea id="comments" name="comments" rows="8" cols="221"></textarea>
+    <textarea id="comments" name="comments" rows="8" cols="218"></textarea>
   </div>
 
   <input type="submit" value="Submit">

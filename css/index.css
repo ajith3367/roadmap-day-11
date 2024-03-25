@@ -95,7 +95,7 @@ text-align: var();
 
   .page {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:unset;
   justify-content: space-around; /* Adjust as needed */
 }
 
